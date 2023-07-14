@@ -19,7 +19,7 @@ import datetime
 def Frame(detector, predictor,VideoPath,FramePath,MouthPath,GaborPath,SheetPath,FeaturesPath):
 
     if not os.path.exists(FramePath):
-        os.mkdir(FramePath)
+        os.makedirs(FramePath)
     #obtain the individual words
 
     def generate_speakers():
@@ -59,7 +59,7 @@ def Frame(detector, predictor,VideoPath,FramePath,MouthPath,GaborPath,SheetPath,
                         ROIpath, mouth_centroid_x, mouth_centroid_y, ROI_mouth, widthG, heightG = ROI.rect1(
                                         detector, predictor, i, folder_name, picturepath, MouthPath, GaborPath, SheetPath, FeaturesPath)
                     except Exception as e:
-                        traceback.print_exc()
+                        print("ROI.rect1() returned None. Skipping frame.")
                         continue
                         
                     global HGamma, HKernelSize, HSig, HWavelength
