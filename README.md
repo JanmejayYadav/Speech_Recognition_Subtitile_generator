@@ -25,7 +25,7 @@ All package versions are recorded in the "Packages.txt" file.
 
 ### Gabor-Based Lip feature extraction system
 #### 1. Gabor Based Lipreading with a New Audiovisual Mandarin Corpus
-Authors: [Yan Xu](https://scholar.google.com/citations?user=2ICpMSsAAAAJ&hl=zh-CN&oi=sra), Yuexuan Li, [Andrew Abel](https://pureportal.strath.ac.uk/en/persons/andrew-abel)
+Authors: [Janmejay yadav](https://scholar.google.com/citations?user=2ICpMSsAAAAJ&hl=zh-CN&oi=sra),[Andrew Abel](https://pureportal.strath.ac.uk/en/persons/andrew-abel)
 - Handcrafted Gabor-based lip feature extraction system
 ![Handcrafted Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/Handcrafted.png)
 
