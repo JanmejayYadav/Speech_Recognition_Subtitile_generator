@@ -111,8 +111,6 @@ Authors: [Yan Xu](https://scholar.google.com/citations?user=2ICpMSsAAAAJ&hl=zh-C
 To run the system, execute "Main.py".
 
 #### 3. 'FirstFrame' Gabor-based lip feature extraction system 
-Authors: [Yan Xu](https://scholar.google.com/citations?user=2ICpMSsAAAAJ&hl=zh-CN&oi=sra), [Andrew Abel](https://pureportal.strath.ac.uk/en/persons/andrew-abel)
-!['FirstFrame' Gabor-based lip feature extraction system](https://github.com/YX536/Gabor-based-lipreading-system/blob/main/FirstFrame.png)
 
   1). Main.py. 
 
@@ -128,27 +126,7 @@ Authors: [Yan Xu](https://scholar.google.com/citations?user=2ICpMSsAAAAJ&hl=zh-C
 
 To run the system, execute "Main.py".
 
-### Citation
-If you find this code useful in your research, please consider to cite the following papers:
-```
-@inproceedings{xu2020gabor,
-  title={Gabor based lipreading with a new audiovisual mandarin corpus},
-  author={Xu, Yan and Li, Yuexuan and Abel, Andrew},
-  booktitle={Advances in Brain Inspired Cognitive Systems: 10th International Conference, BICS 2019, Guangzhou, China, July 13--14, 2019, Proceedings 10},
-  pages={169--179},
-  year={2020},
-  organization={Springer}
-}
 
-@inproceedings{xu2022gabor,
-  title={Gabor-based Audiovisual Fusion for Mandarin Chinese Speech Recognition},
-  author={Xu, Yan and Wang, Hongce and Dong, Zhongping and Li, Yuexuan and Abel, Andrew},
-  booktitle={2022 30th European Signal Processing Conference (EUSIPCO)},
-  pages={603--607},
-  year={2022},
-  organization={IEEE}
-}
-```
 ### License
 The source code for the site is licensed under the MIT license, which you can find in the [LICENSE](https://github.com/JanmejayYadav/Gabor-based-lipreading-system) file.
 
